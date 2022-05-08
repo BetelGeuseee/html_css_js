@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example of grid layout</title>
+        <meta name="viewport" content="width=device-width,inital-scale=1.0">
+        <style>
+            .grid{
+                display: grid;
+                background-color: cornflowerblue;
+                padding: 20px;
+                row-gap: 10px;
+                column-gap: 20px;
+               /* grid-template-columns: 200px 200px auto; */
+               /* grid-template-columns: 200px auto auto;  */
+                grid-template-columns: auto auto auto; 
+            }
+            .grid-item{
+                background-color: coral;
+                font-size: 20px;
+                padding: 20px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid">
+            <div class="grid-item">Luffy</div>
+            <div class="grid-item">Zoro</div>
+            <div class="grid-item">Sanji</div>
+            <div class="grid-item">Usopp</div>
+            <div class="grid-item">Nami</div>
+            <div class="grid-item">Jinbei</div>
+            <div class="grid-item">Chopper</div>
+            <div class="grid-item">Robin</div>
+            <div class="grid-item">Franky</div>
+            <div class="grid-item">Brook</div>
+            <div class="grid-item">Carrot</div>
+            <div class="grid-item">Yamato</div>
+        </div>
+    </body>
+</html>

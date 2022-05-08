@@ -1,0 +1,126 @@
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif; /* if not merriweather then default back to serif */
+   /* color: #FEFBE7; */
+   color: #3d4b49;
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', serif;
+    font-size: 5.625rem;
+    color: #66BFBF;
+   /* line-height: 2; */
+}
+h2{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 2.5rem;
+   color: #66BFBF;
+   font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a{
+    color: #11999E;
+}
+.top_container{
+
+    background-color: #e5ecfa;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+    
+    padding: 50px;
+   
+}
+.bottom-container{
+   margin-top: 100px;
+   background-color: hsl(182, 81%, 34%);
+   padding: 30px;
+}
+.bottom-container p{
+    position: relative;
+    top: 20px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
+}
+.propic{
+    border-radius: 100%;
+    height: 200px;
+    width: 180px;
+}
+.skills img{
+    width: 25%;
+}
+.code-img{
+    width: 25%;
+    float: left;
+   /* position: relative;
+    right: 30px; */
+    margin-right: 30px;
+}
+.chilli-img{
+    width:25%;
+    float: right; 
+    margin-left: 30px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+hr{
+    border-style: dotted none none;
+    width: 5%;
+    border-top-width: 10px;
+    border-color: #66BFBF;
+}
+.profile{
+    padding: 30px;
+}
+.skills{
+    margin-top: 100px;
+}
+.contact-me{
+   padding: 50px;
+    
+}
+.contact-me p{
+    margin-top: 30px;
+}
+.footer-link{
+    padding: 20px;
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: relative;
+    top: 90px;
+   
+  }
